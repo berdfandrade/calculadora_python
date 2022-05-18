@@ -1,4 +1,3 @@
-
 # Essa função adiciona
 def adiciona(x, y):
     return x + y
@@ -30,9 +29,12 @@ while True:
         num2 = int(input("Escolha o segundo número: "))
 
     if escolha == '1':
+        print(num1, "+", num2, "=", adiciona(num1, num2))
+
+    if escolha == '2':
         print(num1, "-", num2, "=", subtrai(num1, num2))
 
-    elif escolha == '2':
+    elif escolha == '3':
         print(num1, "*", num2, "=", multiplica(num1, num2))
 
     elif escolha == '4':
@@ -42,7 +44,7 @@ while True:
 
     proximo_calc = input("Deseja fazer outra operacao? (sim/não): ")
     if proximo_calc != "sim":
-        print("Tchau :)")
+        print("Adeus!")
         break
 
 else: print("Entrada Invalida")
