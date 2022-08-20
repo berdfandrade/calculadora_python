@@ -1,5 +1,7 @@
 # Calculadora em Python
 
+![GitHub top language](https://img.shields.io/github/languages/top/berdfandrade/calculadora_python?color=F&logo=Python&logoColor=FFFFFF&style=plastic)
+
 ### Como funciona o meu programa? Simples!
 
 Primeiro criamos uma função para adicionar, que retorna a soma dos valores que foram colocados nos parâmetros. `def adiciona`.
